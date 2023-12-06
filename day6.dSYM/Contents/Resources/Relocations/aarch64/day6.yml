@@ -1,0 +1,16 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/ivo/Coding/C++/AdventOfCode23/day6'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: __ZN4Race15getNumberofWinsEv, symObjAddr: 0x0, symBinAddr: 0x100003C14, symSize: 0x14 }
+  - { offsetInCU: 0x4720, offset: 0x4720, size: 0x8, addend: 0x0, symName: __ZNSt3__14endlB7v160006IcNS_11char_traitsIcEEEERNS_13basic_ostreamIT_T0_EES7_, symObjAddr: 0x194, symBinAddr: 0x100003DA8, symSize: 0x58 }
+  - { offsetInCU: 0x4760, offset: 0x4760, size: 0x8, addend: 0x0, symName: __ZNSt3__19use_facetB7v160006INS_5ctypeIcEEEERKT_RKNS_6localeE, symObjAddr: 0x29C, symBinAddr: 0x100003EB0, symSize: 0x2C }
+  - { offsetInCU: 0x712D, offset: 0x712D, size: 0x8, addend: 0x0, symName: __ZN4Race15getNumberofWinsEv, symObjAddr: 0x0, symBinAddr: 0x100003C14, symSize: 0x14 }
+  - { offsetInCU: 0x7152, offset: 0x7152, size: 0x8, addend: 0x0, symName: __ZN4Race21findLowestTimeToPressEv, symObjAddr: 0x14, symBinAddr: 0x100003C28, symSize: 0xAC }
+  - { offsetInCU: 0x71BD, offset: 0x71BD, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0xC0, symBinAddr: 0x100003CD4, symSize: 0x6C }
+  - { offsetInCU: 0x71E5, offset: 0x71E5, size: 0x8, addend: 0x0, symName: __ZN4RaceC1Ell, symObjAddr: 0x12C, symBinAddr: 0x100003D40, symSize: 0x3C }
+  - { offsetInCU: 0x72D6, offset: 0x72D6, size: 0x8, addend: 0x0, symName: __ZNSt3__113basic_ostreamIcNS_11char_traitsIcEEElsB7v160006EPFRS3_S4_E, symObjAddr: 0x168, symBinAddr: 0x100003D7C, symSize: 0x2C }
+  - { offsetInCU: 0x7308, offset: 0x7308, size: 0x8, addend: 0x0, symName: __ZN4RaceC2Ell, symObjAddr: 0x1EC, symBinAddr: 0x100003E00, symSize: 0x2C }
+  - { offsetInCU: 0x734C, offset: 0x734C, size: 0x8, addend: 0x0, symName: __ZNKSt3__19basic_iosIcNS_11char_traitsIcEEE5widenB7v160006Ec, symObjAddr: 0x218, symBinAddr: 0x100003E2C, symSize: 0x84 }
+  - { offsetInCU: 0x73B8, offset: 0x73B8, size: 0x8, addend: 0x0, symName: __ZNKSt3__15ctypeIcE5widenB7v160006Ec, symObjAddr: 0x2C8, symBinAddr: 0x100003EDC, symSize: 0x38 }
+...
