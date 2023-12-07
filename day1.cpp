@@ -3,14 +3,15 @@
 #include <string>
 #include <filesystem>
 #include <sstream>
+#include <array>
 
 
 int main()
 {
     std::ifstream ifs;
     std::string str;
+    std::array<std::string, 9> number_strings = {"one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
     
-
     ifs.open( "/Users/ivo/Coding/C++/AdventOfCode23/day1.txt", std::ios::in);
 
     if(ifs)
@@ -19,10 +20,15 @@ int main()
         while(!ifs.eof())
         {
             char c;
-            int firstDigit, lastDigit,number = 0;
+            int firstDigit, lastDigit,number,firstNumberOccurence, lastNumberOccurence = 0;
             std::stringstream ss;
 
             std::getline(ifs, str);
+    /*      for(auto numStr : number_strings)
+            {
+                textNumberOccurence = str.find(numStr);
+            }
+    */
             ss << str;
             while(ss>>c)
             {
