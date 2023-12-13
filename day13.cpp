@@ -26,6 +26,8 @@ int get_sym_line (string pattern, int pos)
                 b_sym_line_found = false;
                 break;
             }
+            if(pos1 == 0)
+            {break;}
         }
         if(b_sym_line_found)
             return pos;
@@ -58,7 +60,7 @@ int main()
             {
                 if(0 == line_of_symetry)
                 {
-                    line_of_symetry = str.size()/2;
+                    line_of_symetry = 1;//str.size()/2;
                 }   
                 if(-1 == line_of_symetry)
                     continue;
@@ -145,7 +147,7 @@ int main()
                 {
                     if(0 == line_of_symetry)
                     {
-                        line_of_symetry = column.size()/2;
+                        line_of_symetry = 1;//column.size()/2;
                     }   
                     if(-1 == line_of_symetry)
                         break;
