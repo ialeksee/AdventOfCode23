@@ -5,7 +5,7 @@
 #include <vector>
 
 using namespace std;
-#define SIDE 10
+#define SIDE 100
 vector<string> platform;
 char rot[SIDE][SIDE];
 const char boulder = 'O';
@@ -110,6 +110,7 @@ int main()
                 roll();
             }
 
+
             int edge_distance = platform.size();
             int total_weight = 0;
             int row_number = 0;
@@ -126,7 +127,9 @@ int main()
             }    
             weights.push_back(total_weight);
             cout << "Weight: " << total_weight << endl; 
-        }        
+        } 
+
+               
         /*
         for(auto row : platform)
         {
