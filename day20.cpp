@@ -324,7 +324,7 @@ broadcaster -> a
         // }
 
         //simulate 1000 pushes
-    //    for(int i = 0; i < 1000; i++)
+        for(int i = 0; i < 1000; i++)
         {
         // cout << "Push " << i+1 << endl;
             broadcaster.receive_signal(Intensity::low, "button");
